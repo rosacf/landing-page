@@ -5,6 +5,7 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     margin: 0;
+    font-size: 18px;
 }
 
 ul {
@@ -13,7 +14,6 @@ ul {
     padding:0;
     display: flex;
     gap: 16px;
-
 }
 
 a {
@@ -25,7 +25,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(35, 88, 58);
+    background-color: rgb(33, 77, 52);
     color: white;
     padding: 16px 200px;
 
@@ -33,5 +33,47 @@ a {
 
 .header-logo {
     font-size: 22px;
+    font-weight: bold;
+    display: flex; 
+    flex-shrink: 0;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+.main-one {
+    display: flex;
+    background-color: rgb(33, 77, 52);
+    color: white;
+    padding: 100px 200px;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.left-info {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex-shrink: 0;  
+}
+
+button {
+    width: 130px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color:rgb(74, 182, 121);
+    border: none;
+    font-size: ;
+    margin: 16px 0;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 48px;
     font-weight: bold;
 }
