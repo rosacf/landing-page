@@ -1,2 +1,3 @@
 # landing-page
-Project for TOP in which we create a landing page by using flexbox
+Created a landing page by using flexbox. 
+I learned how to better organize content on a webpage 
